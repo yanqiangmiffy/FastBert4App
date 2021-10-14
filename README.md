@@ -31,10 +31,10 @@ QNLI
 MRPC  
 NER  
 #### 目前已经支持的调优方案:
-1 SimCSE
-2 SimCSE-negative 
-3 SimCLR
-4 SCR
+1 SimCSE  
+2 SimCSE-negative   
+3 SimCLR  
+4 SCR  
 #### 目前更新方案:
 1 promote  
 2 ernie1.0预训练模型加入  
