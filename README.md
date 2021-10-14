@@ -25,11 +25,11 @@ FasrBert将提供一个快速将Bert和Bert的各种trick落地的方案。复�
         2.1  logits蒸馏
         2.2  TinyBert蒸馏
 #### 目前已经支持的任务:
-MNLI
-QQP
-QNLI
-MRPC
-NER
+MNLI  
+QQP  
+QNLI  
+MRPC  
+NER  
 #### 目前已经支持的调优方案:
 1 SimCSE
 2 SimCSE-negative 
