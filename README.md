@@ -14,7 +14,7 @@ FasrBert将提供一个快速将Bert和Bert的各种trick落地的方案。复�
 1 PGD  
 2 FGM  
 3 SWA  
-4 Lookahead
+4 Lookahead  
 5 梯度惩罚  
 6 warm up  
 #### 支持的衍生任务
