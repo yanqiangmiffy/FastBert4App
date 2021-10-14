@@ -36,10 +36,10 @@ NER
 3 SimCLR
 4 SCR
 #### 目前更新方案:
-1 promote
-2 ernie1.0预训练模型加入
-3 ernie2.0预训练模型加入
-4 Consert模型加入
+1 promote  
+2 ernie1.0预训练模型加入  
+3 ernie2.0预训练模型加入  
+4 Consert模型加入  
 
 #### 代码说明
 
