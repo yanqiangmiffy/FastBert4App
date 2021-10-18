@@ -1,0 +1,13 @@
+nezha  epoch4  0.5 78.53
+nezha  epoch3+lookahead  0.5 78.23
+nezha  epoch3 0.5  78.79
+nezha  epoch6 0.5 +fgm 79.448
+nezha  epoch3 0.5 +fgm +三个训练集中dev用jieba去重 79.763 (lr改为了2e-5)
+nezha  epoch3 0.5+fgm 'Qianyan_fgm.pth2' (把测试集50改为了128)
+
+nezha  epoch4 0.5+fgm 'Qianyan_fgm928.pth3' (把测试集50改为了128)  79.811
+上面基础上  去掉了LN  79.9
+nezha  epoch3  去掉Ln fgm  77.56
+       epoch4  79.095       #对比9和11   初步估计加入噪声是有用的  （10 11 去掉了concat LN 但是没有完全去掉）
+       epoch4  78.31        (对比10 11 完全去掉LN部分)
+sentence_bert  75.124
